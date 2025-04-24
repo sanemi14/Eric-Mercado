@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #c5eed2, #96e3af, #50b67e);
+    background: linear-gradient(135deg, #B2DfDB, #80CBC4, #26A69A);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
@@ -17,56 +17,56 @@ body {
 }
 
 header {
-    background: rgba(76, 175, 80, 0.2);
+    background: rgba(38, 166, 154, 0.2);
 }
 
 .card {
-    background: rgba(76, 175, 80, 0.1);
+    background: rgba(38, 166, 154, 0.1);
 }
 
 
 .form-register, .contacto__cuerpo {
-    background: rgba(76, 175, 80, 0.15);
+    background: rgba(38, 166, 154, 0.15);
 }
 
 
 @media (max-width: 767px) {
     body {
-        background: linear-gradient(135deg, #a8e6c8, #81c784, #66bb6a);
+        background: linear-gradient(135deg, #E0F2F1, #80CBC4, #26A69A);
     }
 
     header {
-        background: rgba(102, 187, 106, 0.3);
+        background: rgba(38, 166, 154, 0.3);
     }
 
     .form-register, .contacto__cuerpo {
-        background: rgba(102, 187, 106, 0.2);
+        background: rgba(38, 166, 154, 0.2);
     }
 }
 
 /* Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
     body {
-        background: linear-gradient(135deg, #c8e6c9, #81c784, #66bb6a);
+        background: linear-gradient(135deg, #B2DfDB, #4DB6AC, #009688);
     }
     header {
-        background: rgba(76, 175, 80, 0.4); 
+        background: rgba(0, 150, 136, 0.4); 
     }
     .form-register, .contacto__cuerpo {
-        background: rgba(76, 175, 80, 0.25);
+        background: rgba(0, 150, 136, 0.25);
     }
 }
 
 /* Escritorio*/
 @media (min-width: 1025px) {
     body {
-        background: linear-gradient(135deg, #c5eed2, #96e3af, #50b67e);
+        background: linear-gradient(135deg, #B2DfDB, #80CBC4, #26A69A);
     }
     header {
-        background: rgba(76, 175, 80, 0.2); 
+        background: rgba(38, 166, 154, 0.2); 
     }
     .form-register, .contacto__cuerpo {
-        background: rgba(76, 175, 80, 0.15);
+        background: rgba(38, 166, 154, 0.15);
     }
 }
 
@@ -87,7 +87,7 @@ header {
 }
 
 .grid-container__logo {
-    background-color: #d3d3b7;
+    background-color: #E0F2F1;
     font-size: 3.75rem;
     text-align: center;
     width: 100%;
@@ -109,7 +109,7 @@ header {
 
 .grid-container__foto-presentacion {
     width: 300px;
-    background-color: #96e3af;
+    background-color: #B2DfDB;
 }
 
 .grid-container__formacion {
@@ -131,8 +131,19 @@ header {
 }
 
 .footer {
-    background-color: #50b67e;
-    list-style: circle;
+    background-color: #26A69A;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 /* Agenda */
@@ -147,26 +158,26 @@ header {
 }
 
 .form-register__control {
-    background-color: #c5eed2;
+    background-color: #E0F2F1;
     padding: .625rem;
     border-radius: .25rem;
     margin-bottom: 1.25rem;
 }
 
 .form-register__modalidad {
-    background-color: #96e3af;
+    background-color: #B2DfDB;
     margin-bottom: 1.875rem;
     padding: 20px;
 }
 
 .form-register__horarios {
     padding: 20px;
-    background-color: #96e3af;
+    background-color: #B2DfDB;
     margin-bottom: 2.5rem;
 }
 
 .form-register__calendario {
-    background-color: #c5eed2;
+    background-color: #E0F2F1;
 }
 
 .form-register__button {
@@ -174,11 +185,21 @@ header {
     margin: 1rem 0;
 }
 
+.btn-enviar {
+    background-color: #26A69A !important;
+    color: white !important;
+    border: none !important;
+  }
+  
+.btn-enviar:hover {
+    background-color: #1f8d83 !important; 
+  }
+  
 /* Contacto */
 .contacto__cuerpo {
     font-size: 1.25rem;
     width: 31.25rem;
-    background-color: #c5eed2;
+    background-color: #E0F2F1;
     padding: 1.875rem;
     margin: auto;
     margin-top: 6.25rem;
@@ -197,3 +218,4 @@ header {
     list-style: none;
 }
 /* agregando comentario para poder hacerr el git */ 
+/* Se me olvida hacer los commit, perdon */
