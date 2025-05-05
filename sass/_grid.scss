@@ -1,0 +1,49 @@
+.grid-container__menu {
+    @include flex-center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: .625rem;
+    margin: .625rem;
+    height: 1.875rem;
+  }
+  
+  .grid-container__menu-item a {
+    color: $texto-negro;
+    padding: 3.125rem;
+    text-decoration: none;
+  }
+  
+  .grid-container__logo {
+    background-color: $color-destacado;
+    font-size: 3.75rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .grid-container__presentacion {
+    font-weight: 800;
+    padding: 1.25rem;
+    @include text-justify;
+  }
+  
+  .grid-container__foto-presentacion {
+    width: 300px;
+    background-color: $color-terciario;
+  }
+  
+  .grid-container__formacion,
+  .grid-container__testimonios {
+    text-align: center;
+  }
+  
+  .grid-container__formacion-lista {
+    padding: 1.875rem;
+    @include text-justify;
+  }
+  
+  .grid-container__testimonio-foto {
+    width: 9.375rem;
+    background-color: $color-testimonio;
+  }
+
+  

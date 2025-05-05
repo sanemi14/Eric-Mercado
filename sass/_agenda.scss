@@ -1,0 +1,37 @@
+.form-register {
+    padding: 1.875rem;
+    margin-bottom: 3.125rem;
+  
+    &__title {
+      font-size: 1.375rem;
+      margin-bottom: 1.25rem;
+    }
+  
+    &__control {
+      background-color: $color-destacado;
+      padding: .625rem;
+      border-radius: .25rem;
+      margin-bottom: 1.25rem;
+    }
+  
+    &__modalidad,
+    &__horarios {
+      background-color: $color-terciario;
+      padding: 20px;
+      margin-bottom: 1.875rem;
+    }
+  
+    &__horarios {
+      margin-bottom: 2.5rem;
+    }
+  
+    &__calendario {
+      background-color: $color-destacado;
+    }
+  
+    &__button {
+      padding: .75rem;
+      margin: 1rem 0;
+    }
+  }
+  

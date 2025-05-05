@@ -1,0 +1,13 @@
+{
+  "name": "sitio-antonella",
+  "version": "1.0.0",
+  "description": "Proyecto SCSS para el sitio de Antonella",
+ "scripts": {
+  "sass": "sass sass/stylo.scss css/stylo.css",
+  "sass:watch": "sass sass/stylo.scss css/stylo.css --watch"
+}
+,
+  "devDependencies": {
+    "sass": "^1.75.0"
+  }
+}

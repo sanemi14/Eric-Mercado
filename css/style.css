@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/* Paleta de colores */
+/* Tipografía */
+/* Breakpoints */
+/* Centrado */
+/* Texto */
+/* Gradiente */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Serif 4", serif;
+}
+
+body {
+  background: linear-gradient(135deg, #B2DfDB, #80CBC4, #26A69A);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+header {
+  background: rgba(38, 166, 154, 0.2);
+}
+
+.card {
+  background: rgba(38, 166, 154, 0.1);
+}
+
+.form-register,
+.contacto__cuerpo {
+  background: rgba(38, 166, 154, 0.15);
+}
+
+/* Footer */
+.footer {
+  background-color: #26A69A;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* boton */
+.btn-enviar {
+  background-color: #26A69A !important;
+  color: white !important;
+  border: none !important;
+}
+.btn-enviar:hover {
+  background-color: #1f8d83 !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.grid-container__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0.625rem;
+  margin: 0.625rem;
+  height: 1.875rem;
+}
+
+.grid-container__menu-item a {
+  color: black;
+  padding: 3.125rem;
+  text-decoration: none;
+}
+
+.grid-container__logo {
+  background-color: #E0F2F1;
+  font-size: 3.75rem;
+  text-align: center;
+  width: 100%;
+}
+
+.grid-container__presentacion {
+  font-weight: 800;
+  padding: 1.25rem;
+  text-align: justify;
+}
+
+.grid-container__foto-presentacion {
+  width: 300px;
+  background-color: #B2DfDB;
+}
+
+.grid-container__formacion,
+.grid-container__testimonios {
+  text-align: center;
+}
+
+.grid-container__formacion-lista {
+  padding: 1.875rem;
+  text-align: justify;
+}
+
+.grid-container__testimonio-foto {
+  width: 9.375rem;
+  background-color: #96e3af;
+}
+
+.form-register {
+  padding: 1.875rem;
+  margin-bottom: 3.125rem;
+}
+.form-register__title {
+  font-size: 1.375rem;
+  margin-bottom: 1.25rem;
+}
+.form-register__control {
+  background-color: #E0F2F1;
+  padding: 0.625rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+.form-register__modalidad, .form-register__horarios {
+  background-color: #B2DfDB;
+  padding: 20px;
+  margin-bottom: 1.875rem;
+}
+.form-register__horarios {
+  margin-bottom: 2.5rem;
+}
+.form-register__calendario {
+  background-color: #E0F2F1;
+}
+.form-register__button {
+  padding: 0.75rem;
+  margin: 1rem 0;
+}
+
+.contacto__cuerpo {
+  font-size: 1.25rem;
+  width: 31.25rem;
+  background-color: #E0F2F1;
+  padding: 1.875rem;
+  margin: auto;
+  margin-top: 6.25rem;
+  border-radius: 0.25rem;
+  text-align: center;
+  box-shadow: 0.4375rem 0.8125rem 2.3125rem;
+}
+
+.contacto__items {
+  padding: 2.25rem;
+  font-size: 1.5625rem;
+  font-style: oblique;
+}
+
+.contacto__redes {
+  list-style: none;
+}
+
+@media (max-width: 767px) {
+  body {
+    background: linear-gradient(135deg, #E0F2F1, #80CBC4, #26A69A);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  header {
+    background: rgba(38, 166, 154, 0.3);
+  }
+  .form-register,
+  .contacto__cuerpo {
+    background: rgba(38, 166, 154, 0.2);
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background: linear-gradient(135deg, #B2DfDB, #4DB6AC, #009688);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  header {
+    background: rgba(0, 150, 136, 0.4);
+  }
+  .form-register,
+  .contacto__cuerpo {
+    background: rgba(0, 150, 136, 0.25);
+  }
+}

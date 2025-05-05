@@ -1,0 +1,40 @@
+.card {
+    background: rgba($color-principal, 0.1);
+  }
+  
+  .form-register,
+  .contacto__cuerpo {
+    background: rgba($color-principal, 0.15);
+  }
+
+  /* Footer */
+
+  .footer {
+    background-color: $color-principal;
+    color: $texto-blanco;
+    padding: 2rem 0;
+    text-align: center;
+  
+    a {
+      color: $texto-blanco;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  /* boton */
+
+  .btn-enviar {
+    background-color: $color-principal !important;
+    color: $texto-blanco !important;
+    border: none !important;
+  
+    &:hover {
+      background-color: $color-hover !important;
+    }
+  }
+
+  
