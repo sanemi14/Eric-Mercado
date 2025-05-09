@@ -2,13 +2,92 @@ body {
     @include animated-gradient($color-terciario, $color-secundario, $color-principal);
   }
   
-  @keyframes gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-  
   header {
     background: rgba($color-principal, 0.2);
   }
   
+
+ .navbar-nav li{
+
+  &:hover{
+    animation: pulse 0.8s ease;
+  }
+ }
+
+ .fade-in-up {
+  animation: fadeInUp 1s ease-out both;
+}
+
+.delay-0 {
+  animation-delay: 0s;
+}
+.delay-1 {
+  animation-delay: 0.3s;
+}
+.delay-2 {
+  animation-delay: 0.6s;
+}
+.delay-3 {
+  animation-delay: 0.9s;
+}
+.delay-4 {
+  animation-delay: 1.2s;
+}
+.delay-5 {
+  animation-delay: 1.5s;
+}
+.delay-6 {
+  animation-delay: 1.8s;
+}
+
+
+.accordion-item {
+  background-color: rgba(38, 166, 154, 0.08);
+  border: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.accordion-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.accordion-button {
+  background-color: rgba(38, 166, 154, 0.15);
+  color: #00695c;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(38, 166, 154, 0.22);
+  color: #00423f;
+}
+
+.accordion-body {
+  background-color: rgba(38, 166, 154, 0.06);
+  color: #004d40;
+}
+
+.accordion-collapse.show .accordion-body {
+  animation: fadeSlideDown 1s ease both;
+}
+
+.fade-in-right {
+  opacity: 0;
+  animation: fadeInRight 0.8s ease-out forwards;
+}
+
+.fade-delay-1 { animation-delay: 0.2s; }
+
+.fade-delay-2 { animation-delay: 0.4s; }
+
+.fade-delay-3 { animation-delay: 0.6s; }
+
+.fade-delay-4 { animation-delay: 0.8s; }
+
+.fade-delay-5 { animation-delay: 1s; }
+
+.fade-in-left {
+  opacity: 0;
+  animation: fadeInLeft 2s ease forwards;
+}
