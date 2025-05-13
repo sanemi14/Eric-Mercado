@@ -42,30 +42,39 @@ body {
 
 
 .accordion-item {
-  background-color: rgba(38, 166, 154, 0.08);
+  background-color: #e0f2f1; 
   border: none;
+  border-radius: 6px;
+  margin-bottom: 10px;
   transition: box-shadow 0.3s ease;
 }
 
 .accordion-item:hover {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .accordion-button {
-  background-color: rgba(38, 166, 154, 0.15);
-  color: #00695c;
+  background-color: #26a69a; 
+  color: #ffffff; 
   font-weight: bold;
+  border-radius: 6px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: rgba(38, 166, 154, 0.22);
-  color: #00423f;
+  background-color: #00796b; 
+  color: #ffffff;
+}
+
+.accordion-button:focus {
+  box-shadow: none; 
 }
 
 .accordion-body {
-  background-color: rgba(38, 166, 154, 0.06);
-  color: #004d40;
+  background-color: #e0f2f1; 
+  color: #004d40; 
+  font-size: 0.95rem;
+  padding: 1rem;
 }
 
 .accordion-collapse.show .accordion-body {
