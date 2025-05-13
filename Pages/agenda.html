@@ -10,10 +10,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
     <div class="container">
       <a class="navbar-brand fw-bold fade-in-right" href="../index.html">ANTONELLA MOLINA</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Abrir menú de navegación">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -24,8 +25,10 @@
         </ul>
       </div>
     </div>
-  </nav>
-  <div class="container py-5 fade-in-up">
+    </nav>
+  </header>
+  <main>
+    <div class="container py-5 fade-in-up">
     <h2 class="text-center mb-4 fade-in-up delay-0">Reserva tu consulta</h2>
     <form class="row g-3">
       <div class="col-md-6 fade-in-up delay-1">
@@ -59,10 +62,11 @@
         <button type="submit" class="btn btn-enviar">Enviar</button>
       </div>
     </form>
-  </div>
+    </div>
+  </main>
   <footer class="footer py-4">
     <div class="container text-center">
-      <h5>Redes sociales</h5>
+      <h2>Redes sociales</h2>
       <ul class="list-inline">
         <li class="list-inline-item"><a class="text-white" href="https://twitter.com">Twitter</a></li>
         <li class="list-inline-item"><a class="text-white" href="https://instagram.com">Instagram</a></li>
@@ -70,7 +74,6 @@
       </ul>
     </div>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
